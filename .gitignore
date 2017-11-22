@@ -69,14 +69,12 @@ target/
 *.tlb
 *.tli
 *.tlh
-*.tmp
 *.tmp_proj
 *.log
 *.vspscc
 *.vssscc
 .builds
 *.pidb
-*.log
 *.scc
 
 # Visual C++ cache files
@@ -194,7 +192,6 @@ $RECYCLE.BIN/
 *.egg
 *.egg-info
 dist/
-build/
 eggs/
 parts/
 var/
@@ -215,4 +212,5 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-*~
+/.idea
+*.iml
